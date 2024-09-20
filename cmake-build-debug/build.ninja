@@ -67,6 +67,12 @@ build CMakeFiles/Learn_C__.dir/Part_1_-_The_Basics/The_Anatomy_of_a_C++_Program/
   OBJECT_DIR = CMakeFiles\Learn_C__.dir
   OBJECT_FILE_DIR = CMakeFiles\Learn_C__.dir\Part_1_-_The_Basics\The_Anatomy_of_a_C++_Program
 
+build CMakeFiles/Learn_C__.dir/Part_1_-_The_Basics/The_Anatomy_of_a_C++_Program/InputDemo.cpp.obj: CXX_COMPILER__Learn_C___unscanned_Debug C$:/Users/Soba/CLionProjects/Learn$ C++/Part$ 1$ -$ The$ Basics/The$ Anatomy$ of$ a$ C++$ Program/InputDemo.cpp || cmake_object_order_depends_target_Learn_C__
+  DEP_FILE = CMakeFiles\Learn_C__.dir\Part_1_-_The_Basics\The_Anatomy_of_a_C++_Program\InputDemo.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Learn_C__.dir
+  OBJECT_FILE_DIR = CMakeFiles\Learn_C__.dir\Part_1_-_The_Basics\The_Anatomy_of_a_C++_Program
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Learn_C__
@@ -75,7 +81,7 @@ build CMakeFiles/Learn_C__.dir/Part_1_-_The_Basics/The_Anatomy_of_a_C++_Program/
 #############################################
 # Link the executable Learn_C__.exe
 
-build Learn_C__.exe: CXX_EXECUTABLE_LINKER__Learn_C___Debug CMakeFiles/Learn_C__.dir/Part_1_-_The_Basics/Getting_Started/Hello.cpp.obj CMakeFiles/Learn_C__.dir/Part_1_-_The_Basics/Getting_Started/Exercise1.cpp.obj CMakeFiles/Learn_C__.dir/Part_1_-_The_Basics/The_Anatomy_of_a_C++_Program/DemoConsleOutput.cpp.obj
+build Learn_C__.exe: CXX_EXECUTABLE_LINKER__Learn_C___Debug CMakeFiles/Learn_C__.dir/Part_1_-_The_Basics/Getting_Started/Hello.cpp.obj CMakeFiles/Learn_C__.dir/Part_1_-_The_Basics/Getting_Started/Exercise1.cpp.obj CMakeFiles/Learn_C__.dir/Part_1_-_The_Basics/The_Anatomy_of_a_C++_Program/DemoConsleOutput.cpp.obj CMakeFiles/Learn_C__.dir/Part_1_-_The_Basics/The_Anatomy_of_a_C++_Program/InputDemo.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Learn_C__.dir

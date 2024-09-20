@@ -17,5 +17,5 @@ void demoConsoleOutput()
 int main()
 {
     // Does the function and returns the value
-    return demoConsoleOutput();
+    demoConsoleOutput();
 }
